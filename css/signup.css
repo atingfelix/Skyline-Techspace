@@ -1,0 +1,269 @@
+body{
+    /* background: gray;
+    margin: 0;
+    padding: 0; */
+     background-image: url(../digital\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.container-form{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    position: relative;
+
+}
+
+
+
+/* here is my text styling */
+
+input[type="text"]{
+    width: 50%;
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    text-indent: 30px;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    border-radius: 18px;
+    border: 2px solid gray;
+}
+
+
+/* here is my email styling */
+
+input[type="email"]{
+    width: 50%;
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    text-indent: 30px;
+}
+
+input[type="email"]:focus{
+    outline: none;
+    border-radius: 18px;
+    border: 2px solid gray;
+}
+
+
+
+/* here is my phone number styling */
+
+input[type="tel"]{
+    width: 50%;
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    text-indent: 30px;
+}
+
+input[type="tel"]:focus{
+    outline: none;
+    border-radius: 18px;
+    border: 2px solid gray;
+}
+
+
+
+/* here is my password style */
+
+input[type="password"]{
+    width: 50%;
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    text-indent: 30px;
+}
+
+input[type="password"]:focus{
+    outline: none;
+    border-radius: 18px;
+    border: 2px solid gray;
+}
+
+/* here is my submit styling */
+
+input[type="submit"]{
+    width: 50%;
+    padding: 12px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(41, 207, 41);
+ 
+}
+
+
+input[type="submit"]:focus{
+    outline: none;
+    border-radius: 18px;
+    border: none;
+}
+
+
+
+
+
+::placeholder{
+    font-size: 17px;
+    color: lightblue;
+    padding: 0px 20px;
+    
+}
+
+/* my icon design is here */
+
+.user i{
+    font-size: 20px;
+}
+
+.user1 i{
+    font-size: 20px;
+}
+
+.user2 i{
+    font-size: 20px;
+}
+
+
+.user{
+    position: absolute;
+    left: 25%;
+    top: 3%;
+}
+
+.user1{
+    position: absolute;
+    left: 25%;
+    top: 21%;
+}
+
+.user2{
+    position: absolute;
+    left: 25%;
+    top: 39%;
+}
+
+
+.form-main{
+    position: relative;
+    /* padding: 60px; */
+}
+
+
+.divider{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.divider::before, .divider::after{
+    content: "";
+    padding: 1px;
+    background-color: gray;
+    flex: 1;
+    margin: 10px 4px;
+ 
+}
+
+.divider-icon{
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+
+.btn-social{
+    background: #3b5998;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+.btn-social:nth-child(2){
+    background-color: #26a7de;
+}
+
+.btn-social:nth-child(3){
+    background-color: #d10e00;
+}
+
+
+
+/* my home button design is here */
+
+
+.home{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 25px;
+}
+
+.home-icon{
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1093px) {
+
+    .container-form{
+        width: 100%;
+    }
+
+
+    
+.btn-social{
+  
+    padding: 10px;
+   
+}
+
+
+
+    
+
+   
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
